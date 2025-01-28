@@ -34,6 +34,7 @@ nav a {
 
 .intro-content {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
@@ -43,6 +44,7 @@ nav a {
   width: 250px; 
   height: auto;
   border-radius: 10px; /* Bordes redondeados */
+  max-width: 100%;
 }
 
 .intro-content .text {
@@ -81,8 +83,8 @@ nav a {
   display: flex;
   align-items: center;
   gap: 10px; /* Espacio entre texto e ícono */
-  margin-bottom: 10px;
-  white-space: nowrap
+ 
+  white-space: normal;
 }
 
 .education h3, .experience h3 {
